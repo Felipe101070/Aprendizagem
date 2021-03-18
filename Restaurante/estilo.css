@@ -1,0 +1,168 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+    margin: 0;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 3pc;
+}
+h2{
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    border-bottom: rgba(0, 0, 0, 0.3) solid 3px;
+    margin-right: 5px;
+}
+.hero-content h1{
+    font-size: 1.8pc;
+    text-shadow: 4px 4px 5px black;
+}
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-bottom: solid 0.2pc;
+    display: inline-block;
+}
+.hero nav ul{
+    text-align: left;
+    margin:10px 25px 0 0;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1pc;
+    letter-spacing: 0.15pc;
+}
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.check{
+    margin-left: 65px;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 0.5pc;
+    margin-top: 0.8pc;
+    overflow: auto;
+}
+.sec-2{
+    margin-bottom: 0.8pc;
+}
+.card{
+    float:left;
+    box-sizing: border-box;
+}
+.card-2, .card-3, .card-4{
+    margin-right: 1%;
+}
+.card-5, .card-6, .card-7{
+    margin-right: 1%;
+}
+.card-1, .card-8{
+    margin-right: 1%;
+}
+
+.card img{
+    width: 100%;
+    height: 12em;
+    display: block; 
+}
+.card p{
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.content-header {
+    border-bottom: solid 2px #cccccc;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+.content-header h2{
+    margin: 0;
+}
+footer{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-shadow:3px 3px 2px black;
+    background-color: rgb(73, 73, 73);
+    padding: 20px;
+}
+
+@media screen and (min-width:38em){
+    .hero-content h1{
+        font-size: 2em;
+    }
+    .hero-content p{
+        padding: 1em;
+        font-size: 1.1em;
+    }
+    .hero nav a{
+        font-size: 1.2em;
+        padding: 0.4em;
+    }
+    .hero nav ul{
+        margin:10px 25px 0 50px;
+    }
+    h2{
+        margin-right: 7px;
+    }
+    .card{
+        width: 49%;
+    }
+    .check{
+        margin-left: 95px;
+    }
+    footer{
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:55em){
+    .hero-content h1{
+        font-size: 2.5em;
+    }
+    .hero-content p{
+        padding: 1.2em;
+        font-size: 1.3em;
+    }
+
+    .hero nav a{
+        font-size: 1.4em;
+        padding: 0.5em;
+    }
+    h2{
+        margin-right: 17px;
+    }
+    .hero nav ul{
+        margin:10px 25px 0 80px;
+    }
+    .check{
+        margin-left: 125px;
+    }
+    .card{
+        width: 32%;
+    }
+    footer{
+        font-size: 25px;
+    }
+}

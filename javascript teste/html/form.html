@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuario a versao do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Felipe">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="#" method="POST" class="formLogin">
+            <fieldset>
+
+                <legend>Dados Pessoais</legend>
+                <label>E-mail</label>
+                <input type="email" required placeholder="email">
+
+                <label>numero de filhos</label>
+                <input type="number" min="0" max="1000" step="">
+                <label>nascimento</label>
+                <input type="date" min="2018-01-30" max="2138-01-30">
+                <p>sexo:</p>
+                <label>
+                    <input type="radio" name="sexo" value="M">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="F">
+                    Feminino</label>
+                <label>Estado</label>
+                <select>
+                    <option value="0">Selecione</option>
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </select> 
+            </fieldset>    
+
+            <fieldset>
+
+                <legend>Area de interesse</legend>
+                <label>
+                    <input type="checkbox"  name="html" value="html">html
+                </label>
+                <label>
+                    <input type="checkbox"  name="css" value="css">css
+                </label>
+                <label>
+                    <input type="checkbox"  name="js" value="js">javascript
+                </label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>mensagem</legend>
+                <textarea style="resize: none;" name="msg" cols="30" rows="10"></textarea>
+                <textarea style="resize: none;" name="contrato" cols="30" rows="10" readonly>Aqui entra o texto do contrato
+                </textarea>
+                <label><input type="checkbox">Li e aceito</label>
+            </fieldset>
+                <input type="button" value="botao">
+            
+        </form>        
+    </body>
+</html>

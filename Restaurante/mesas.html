@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuario a versao do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Restaurante Jesus and Ovelha </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Felipe and Ygor">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia, css, javascript">
+        <meta name="viewport" content="width=device-width">
+        <script src="mesas.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="principal">
+            <header class="hero">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> inicio </a></li>
+                    <li><a href="#"> About us </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Restaurante Jesus e Ovelha (3 irmaos)</h1>
+                <p>Venha para o melhor restaurante e saia bem alimentado</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="mesas.html"> Mesas </a></li>
+                    <li><a href="#"> Caixa </a></li>
+                    <li><a href="#"> Comidas </a></li>
+                    <li><a href="#"> Estoque </a></li>
+                </ul>
+            </nav>
+            </header>
+        </div>
+    </body>
+
+    <main>
+        <section class="content-section">
+            <h2>Mesas</h2>
+            <p>  
+                <button onclick="alocaCliente();">Alocar Cliente</button>
+                <button onclick="fazPedido();">Fazer o Pedido</button> 
+                <!--<button onclick="limpaMesa();">Limpar Mesas</button> -->
+            </p>
+            
+            <div class="card card-1" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre1" onclick="alocaCliente();">
+                <p id="mesa1">Mesa 1 </p>
+            </div>
+            <div class="card card-2" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre2">
+                <p id="mesa2">Mesa 2 </p>
+            </div>
+            <div class="card card-3" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre3">
+                <p id="mesa3">Mesa 3 </p>
+            </div>
+            <div class="card card-4" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre4">
+                <p id="mesa4">Mesa 4 </p>
+            </div>
+            <div class="card card-5" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre5">
+                <p id="mesa5">Mesa 5 </p>
+            </div>
+            <div class="card card-6" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre6">
+                <p id="mesa6">Mesa 6 </p>
+            </div>
+            <div class="card card-7" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre7">
+                <p id="mesa7">Mesa 7 </p>
+            </div>
+            <div class="card card-8" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre8">
+                <p id="mesa8">Mesa 8 </p>
+            </div>
+            <div class="card card-9" >
+                <img src="foto/mesaVazia.jpg" id="mesaLivre9">
+                <p id="mesa9">Mesa 9 </p>
+            </div> 
+
+        </section>
+
+        <section class="content-section">
+            <h2>Cardapio
+                <button onclick="mostraIngredientes();">visualizar ingredientes</button>
+            </h2>
+            <p><b>401 - File de peixe frito</b> -  R$ 35,69</p>
+            <p><b>402 - Quibe recheado ao forno</b> - R$ 23,99</p>
+            <p><b>403 - Frango ao limao</b> - R$ 21,79</p>
+            <p><b>404 - Iscas de Figado Aceboladas</b> - R$ 27,99</p>
+            <p><b>405 - Carré à Mineira</b> - R$ 31,57</p>
+            <p><b>406 - Picadinho do Chef</b> - R$ 29,99</p>
+            <p><b>407 - Steak Avenida</b> - R$ 38,97</p>
+            <p><b>408 - Porção de Feijao</b> - R$ 20,78</p>
+        </section>
+
+    </main>
+
+</html>    
